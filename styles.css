@@ -370,3 +370,51 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* Owner Section */
+.owner-section {
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+.owner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.owner-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d4af37;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.owner-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.owner-section p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (min-width: 700px) {
+  .owner-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+}
