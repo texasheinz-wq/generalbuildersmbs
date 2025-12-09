@@ -444,3 +444,14 @@ body {
   width: 32px;
   height: 32px;
 }
+/* Header Logo */
+.brand-logo {
+    height: 65px; /* Si se ve muy grande/pequeño lo ajustamos */
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .brand-logo {
+        height: 45px; /* Ajuste para móviles */
+    }
+}
