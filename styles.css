@@ -446,12 +446,15 @@ body {
 }
 /* Header Logo */
 .brand-logo {
-    height: 65px; /* Si se ve muy grande/pequeño lo ajustamos */
+    height: 38px;
     object-fit: contain;
+    display: block;
 }
+}
+
 
 @media (max-width: 600px) {
     .brand-logo {
-        height: 45px; /* Ajuste para móviles */
+        height: 32px;
     }
 }
