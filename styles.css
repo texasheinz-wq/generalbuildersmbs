@@ -458,3 +458,15 @@ body {
         height: 32px;
     }
 }
+.logo-img {
+  height: 45px; /* Adjust logo size */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Center vertically brand text and logo */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
