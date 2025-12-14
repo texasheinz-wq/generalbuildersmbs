@@ -453,13 +453,13 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .brand-logo {
-        height: 32px;
+        height: 90px;
     }
 }
 .logo-img {
-  height: 45px; /* Adjust logo size */
+  height: 75px; /* Adjust logo size */
   width: auto;
   object-fit: contain;
 }
